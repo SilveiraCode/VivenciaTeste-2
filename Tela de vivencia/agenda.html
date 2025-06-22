@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Agenda - Amorabi</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1557999345-9ec92d1f8dd4?auto=format&fit=crop&w=1470&q=80') no-repeat center center fixed;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+
+    .agenda-container {
+      background-color: rgba(255, 255, 255, 0.95);
+      padding: 40px;
+      border-radius: 20px;
+      width: 100%;
+      max-width: 1000px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #4d3d2c;
+    }
+
+    .calendar-header {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      text-align: center;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: #5a4d3d;
+    }
+
+    .calendar {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 10px;
+    }
+
+    .day {
+      background-color: #fdeedc;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      font-weight: bold;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      color: #4d3d2c;
+    }
+
+    .inscritas {
+      margin-top: 30px;
+      background-color: #fff3e0;
+      padding: 20px;
+      border-radius: 15px;
+    }
+
+    .inscritas h3 {
+      margin-bottom: 10px;
+      color: #4d3d2c;
+    }
+
+    .inscritas ul {
+      padding-left: 20px;
+      color: #5a4d3d;
+    }
+  </style>
+</head>
+<body>
+  <div class="agenda-container">
+    <h2>Agenda das Oficinas – Junho 2025</h2>
+
+    <div class="calendar-header">
+      <div>Dom</div>
+      <div>Seg</div>
+      <div>Ter</div>
+      <div>Qua</div>
+      <div>Qui</div>
+      <div>Sex</div>
+      <div>Sáb</div>
+    </div>
+
+    <div class="calendar">
+      <div></div>
+      <div class="day">1</div>
+      <div class="day">2</div>
+      <div class="day">3</div>
+      <div class="day">4</div>
+      <div class="day">5</div>
+      <div class="day">6</div>
+      <div class="day">7</div>
+      <div class="day">8</div>
+      <div class="day">9</div>
+      <div class="day">10</div>
+      <div class="day">11</div>
+      <div class="day">12</div>
+      <div class="day">13</div>
+      <div class="day">14</div>
+      <div class="day">15</div>
+      <div class="day">16</div>
+      <div class="day">17</div>
+      <div class="day">18</div>
+      <div class="day">19</div>
+      <div class="day">20</div>
+      <div class="day">21</div>
+      <div class="day">22</div>
+      <div class="day">23</div>
+      <div class="day">24</div>
+      <div class="day">25</div>
+      <div class="day">26</div>
+      <div class="day">27</div>
+      <div class="day">28</div>
+      <div class="day">29</div>
+      <div class="day">30</div>
+      <div class="day">31</div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+    <div class="inscritas">
+      <h3>Minhas Oficinas Inscritas</h3>
+      <ul>
+        <li>Teatro e Expressão (Terças e Quintas)</li>
+        <li>Violão e Canto (Sábados)</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
